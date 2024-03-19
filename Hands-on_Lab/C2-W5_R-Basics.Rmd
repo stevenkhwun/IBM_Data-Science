@@ -1,0 +1,63 @@
+---
+title: "R Basics with RStudio"
+output: html_document
+date: "2024-03-19"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Basic
+
+Some shortcuts:
+
+To clear the console:   Press `Ctrl` + `L` key combination.
+
+To insert the assignment operator: Press `Alt` + `_` key combination.
+
+
+## Load the `iris` dataset from the `datasets` library
+
+```{r}
+library(datasets)
+data(iris)
+head(iris)
+```
+
+Find the different species present in the data set use `unique()` command:
+
+```{r}
+unique(iris$Species)
+```
+
+## Install packages
+
+Install the `GGally` package:
+
+```{r eval=FALSE}
+# Code to install "GGally" package
+# This code will not executed be as the package has already been installed
+install.packages("GGally", repos = "https://cran.r-project.org", type = "source")
+```
+
+## Creating Data Visualizations using `ggplot`
+
+```{r}
+data(mtcars)
+head(mtcars, 5)
+```
+
+Type `?mtcars` to get information about the variables. This will print the information at the bottom right panel, on the `Help` tab.
+
+```{r}
+# load ggplot package
+library(ggplot2)
+```
+
+Create a scatterplot of displacement `disp` and miles per gallon `mpg`:
+
+```{r}
+ggplot(aes(x=disp, y=mpg,), data=mtcars) + geom_point()
+```
+
