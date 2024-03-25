@@ -61,3 +61,72 @@ Create a scatterplot of displacement `disp` and miles per gallon `mpg`:
 ggplot(aes(x=disp, y=mpg,), data=mtcars) + geom_point()
 ```
 
+To add a title
+
+```{r}
+# Add a title
+ggplot(aes(x=disp,y=mpg,), data=mtcars) +
+  geom_point() +
+  ggtitle("displacement vs miles per gallon")
+```
+
+Change the name of the `x-axis` and `y-axis`
+
+```{r}
+# Change axis name
+ggplot(aes(x=disp, y=mpg), data = mtcars) +
+  geom_point() +
+  ggtitle("displacement vs miles per gallon") +
+  labs(x = "Displacement", y = "Miles per Gallon")
+```
+
+
+Create a boxplot of the distribution of `mpg` for the individual Engine types `vs`. (`0` = V-shaped, `1` = straight)
+
+To do this, we have to make `vs` a string or factor.
+
+```{r}
+# make vs a factor
+mtcars$vs <- as.factor(mtcars$vs)
+
+# create boxplot of the distribution for v-shaped and straight Engine
+ggplot(aes(x=vs, y=mpg), data = mtcars) +
+  geom_boxplot()
+```
+
+Add color to the boxplots to help differentiate:
+
+```{r}
+# Add color
+ggplot(aes(x=vs, y=mpg, fill = vs), data = mtcars) +
+  geom_boxplot(alpha=0.3) +
+  theme(legend.position = "none")
+```
+
+Finally, create the histogram of weight `wt`.
+
+```{r}
+ggplot(aes(x=wt), data = mtcars) +
+  geom_histogram(binwidth = 0.5)
+```
+
+## Creating plots with `ggplot` and `GGally`
+
+This lab introduce plotting in `R` with `ggplot` and `GGally`. `GGally` is an extension of `ggplot2`.
+
+We will use the `iris` dataset. Load the dataset with the following code.
+
+```{r}
+library(datasets)
+data(iris)
+```
+
+We then create plots using `GGally` package.
+
+```{r}
+library(GGally)
+ggpairs(iris, mapping=ggplot2::aes(colour = Species))
+```
+
+This gives you a lot of information for a single line of code. First, you can see the data distributions per column and species on the diagonal. Then you see all the pair-wise scatter plots on the tiles left to the diagonal, again segregated by color. It is, for example, obvious that a line can be drawn to separate setosa against versicolor and virginica. In later courses, you will also learn how the overlapping species can be separated. This is called supervised machine learning using non-linear classifiers. You can also see the correlation between individual columns in the tiles on the right to the diagonal, which confirms that setose is more different, hence easier to distinguish, than versicolor and virginica. A correlation value close to one signifies high similarity, whereas a value closer to zero signifies less similarity. The remaining plots on the right are called box-plots, and the ones at the bottom are called histograms, but you will learn about this in a more advanced course in this series.
+
