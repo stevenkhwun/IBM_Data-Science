@@ -8,7 +8,7 @@ There are total 10 courses in this Professional Certificate
 * Data Science Methodology
 * Python for Data Science, AI & Development
 * Python Project for Data Science
-* Database and SQL for DAta Science with Python
+* Database and SQL for Data Science with Python
 * Data Analysis with Python
 * Data Visualization with Python
 * Machine Learning with Python
