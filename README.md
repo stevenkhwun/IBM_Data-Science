@@ -7,6 +7,8 @@ There are total 10 courses in this Professional Certificate
 * Tools for Data Science
 * Data Science Methodology
 * Python for Data Science, AI & Development
+  * Hands-On Lab
+    * [Simple APIs using PyCoinGecko](https://nbviewer.org/github/stevenkhwun/IBM_Data-Science/blob/main/My_Notebook/C4-W5-1_pycoingecko.ipynb)
   * Cheat Sheets
     * [Python Basics](https://nbviewer.org/github/stevenkhwun/IBM_Data-Science/blob/main/My_Notebook/C4-W1-2_Cheat-Sheet.ipynb)
     * [String Formatting](https://nbviewer.org/github/stevenkhwun/IBM_Data-Science/blob/main/My_Notebook/C4-W1-1_Format-Strings.ipynb)
