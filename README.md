@@ -16,6 +16,7 @@ There are total 10 courses in this Professional Certificate
     * [String Formatting](https://nbviewer.org/github/stevenkhwun/IBM_Data-Science/blob/main/My_Notebook/C4-W1-1_Format-Strings.ipynb)
     * [List, Dictionary, and Set](https://nbviewer.org/github/stevenkhwun/IBM_Data-Science/blob/main/My_Notebook/C4-W2-1_Cheat-Sheet.ipynb)
     * [Python Programming Fundamentals](https://nbviewer.org/github/stevenkhwun/IBM_Data-Science/blob/main/My_Notebook/C4-W3-1_Cheat-Sheet-Python-Programming.ipynb)
+    * [The yfinance Python library](https://nbviewer.org/github/stevenkhwun/IBM_Data-Science/blob/main/My_Notebook/C5-W1-1_The-yfinance-Python-library.ipynb)
   * Cheat Sheets in PDF
     * [Python Reference Sheet](https://nbviewer.org/github/stevenkhwun/IBM_Data-Science/blob/main/Python_reference_sheet.pdf)
     * [Python Cheat Sheet - The Basics](https://nbviewer.org/github/stevenkhwun/IBM_Data-Science/blob/main/Python-Cheat-Sheet_The-Basics_Coursera.pdf)
