@@ -10,6 +10,7 @@ There are total 10 courses in this Professional Certificate
   * Hands-On Lab
     * [Simple APIs using PyCoinGecko](https://nbviewer.org/github/stevenkhwun/IBM_Data-Science/blob/main/My_Notebook/C4-W5-1_pycoingecko.ipynb)
     * [Web Scraping Lab](https://nbviewer.org/github/stevenkhwun/IBM_Data-Science/blob/main/Hands-on_Lab/C5-W1-1_WebScraping_Review_Lab.ipynb)
+    * [Extracting Stock Data Using a Python Library](https://nbviewer.org/github/stevenkhwun/IBM_Data-Science/blob/main/Hands-on_Lab/C5-W1-2_Final_Assignment_Library.ipynb)
   * Cheat Sheets in Jupyter Notebook
     * [Python Basics](https://nbviewer.org/github/stevenkhwun/IBM_Data-Science/blob/main/My_Notebook/C4-W1-2_Cheat-Sheet.ipynb)
     * [String Formatting](https://nbviewer.org/github/stevenkhwun/IBM_Data-Science/blob/main/My_Notebook/C4-W1-1_Format-Strings.ipynb)
