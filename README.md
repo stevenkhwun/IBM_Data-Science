@@ -22,6 +22,7 @@ There are total 10 courses in this Professional Certificate
     * [Python Reference Sheet](https://nbviewer.org/github/stevenkhwun/IBM_Data-Science/blob/main/Python_reference_sheet.pdf)
     * [Python Cheat Sheet - The Basics](https://nbviewer.org/github/stevenkhwun/IBM_Data-Science/blob/main/Python-Cheat-Sheet_The-Basics_Coursera.pdf)
 * Python Project for Data Science
+  * [Final Assignment](https://nbviewer.org/github/stevenkhwun/IBM_Data-Science/blob/main/C5_Final-Assignment/Final_Assignment.ipynb)
 * Database and SQL for Data Science with Python
 * Data Analysis with Python
 * Data Visualization with Python
